@@ -1,11 +1,11 @@
 # NYC_Event
 
 ## Group Information
-### Group name: Group 31
+Group name: Group 31
 
-### Class Section: Section 2
+Class Section: Section 2
 
-### Group Member : 
+Group Member : 
 + Chi Zhang: cz2527
 + Haoran Tang
 + Shangyou Wu
@@ -39,6 +39,10 @@ We want to design a project to fulfill the need for event recommendation for int
 
 
 ## Run Instructions
+
+### Python File 
+
+### GUI Events Filter 
 
 function:
 
