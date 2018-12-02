@@ -8,7 +8,7 @@ Class Section: Section 2
 Group Member : 
 + Chi Zhang: cz2527
 + Haoran Tang: ht2491
-+ Shangyou Wu
++ Shangyou Wu: sw3320
 + Huimin Wang: hw2671
 
 ## Project Description
