@@ -7,8 +7,8 @@ Class Section: Section 2
 
 Group Member : 
 + Chi Zhang: cz2527
-+ Haoran Tang
-+ Shangyou Wu
++ Haoran Tang: ht2491
++ Shangyou Wu: sw3320
 + Huimin Wang: hw2671
 
 ## Project Description
@@ -31,11 +31,14 @@ We want to design a project to fulfill the need for event recommendation for int
 
 ## Python Package Requirements
 + pandas
++ numpy
 + request
 + json
 + sodapy
 + gmaps
 + bokeh
++ folium
++ wordcloud
 
 
 ## Run Instructions
