@@ -46,6 +46,21 @@ We want to design a project to fulfill the need for event recommendation for int
 ### Python File 
 
 ### GUI Events Filter 
+We also provides a GUI filter for users to search the events
+
+Bokeh_filter.ipynb provide function to construct a local server to run this GUI
+
+This code should be executed on bash 
+
+run **bokeh serve bokeh_filter.ipynb** 
+
+follow the tips that display on the command line, open **http://localhost:5006/bokeh_filter** on broswer
+
+
+
+for more instructions, please see https://hub.mybinder.org/user/bokeh-bokeh-notebooks-qx6owzax/notebooks/tutorial/11%20-%20Running%20Bokeh%20Applictions.ipynb
+
+
 
 function:
 
