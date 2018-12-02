@@ -1,4 +1,44 @@
-# NYC_event
+# NYC_Event
+
+## Group Information
+### Group name: Group 31
+
+### Class Section: Section 2
+
+### Group Member : 
++ Chi Zhang: cz2527
++ Haoran Tang
++ Shangyou Wu
++ Huimin Wang: hw2671
+
+## Project Description
+
+
+### Motivation:
+
+When we started our study at Columbia University, we have realized that international students want to fit in the culture and attend interesting events while there is no way recommending events on New York City based on users’ location, interests and availability.
+
+ 
+
+### Goal:
+
+We want to design a project to fulfill the need for event recommendation for international students and everyone who eagers to engage in the activities and events in NYC. Meanwhile, companies can benefit from the gathered event information.
+
+ 
+### Realization:
+
+
+
+## Python Package Requirements
++ pandas
++ request
++ json
++ sodapy
++ gmaps
++ bokeh
+
+
+## Run Instructions
 
 function:
 
