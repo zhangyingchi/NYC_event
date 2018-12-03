@@ -59,7 +59,7 @@ Download and initialize the dataset, this is the necessary step for option 2,3,4
 
 ### Option 2: Events heatmap(this will take a little bit long, like 20 mins ) ###
 
-This option doesn't work on terminal method, the google map would not 
+This option doesn't work on terminal method, the google map would only work in jupyter notebook
 
 ### Option 3: Events wordcloud ###
 
