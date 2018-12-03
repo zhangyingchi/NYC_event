@@ -1,9 +1,7 @@
 # NYC_Event
 
 ## Group Information
-Group name: Group 31
-
-Class Section: Section 2
+Group name: Group 31, Class Section: Section 2
 
 Group Member : 
 + Chi Zhang: cz2527
@@ -19,14 +17,9 @@ Group Member :
 When we started our study at Columbia University, we have realized that international students want to fit in the culture and attend interesting events while there is no way recommending events on New York City based on users’ location, interests and availability.
 
  
-
 ### Goal:
 
 We want to design a project to fulfill the need for event recommendation for international students and everyone who eagers to engage in the activities and events in NYC. Meanwhile, companies can benefit from the gathered event information.
-
- 
-### Realization:
-
 
 
 ## Python Package Requirements
@@ -39,11 +32,23 @@ We want to design a project to fulfill the need for event recommendation for int
 + bokeh
 + folium
 + wordcloud
++ tkinter
 
 
-## Run Instructions
+## Run Instructions - Python File
 
-### Python File 
+Two method for running this python script.
+
+### Terminal 
+
+
+
+
+### Jupyter Notebook
+
+Google Maps Widget can not show on terminal, some functions in option 3,5,6 cannot be seen if you run NYC_event.py on terminal
+
+
 
 ![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/wordcloud.png)
 
@@ -52,7 +57,7 @@ We want to design a project to fulfill the need for event recommendation for int
 ![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/map%20marker.png)
 
 
-### GUI Events Filter 
+## Run Instructions - GUI Events Filter 
 We also provides a GUI filter for users to search the events
 
 Bokeh_filter.ipynb provide function to construct a local server to run this GUI
