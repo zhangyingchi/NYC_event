@@ -490,12 +490,8 @@ type "q" to end the program''')
         if df is 0:
             print ('Please initialize data first!')
             continue
-        fig = get_heatmap()
-        from ipywidgets.embed import embed_minimal_html
-        embed_minimal_html('export.html', views=[fig])
-        import webbrowser
-        webbrowser.open_new('export.html')
-            
+        get_heatmap()
+ 
             
     # wordcloud
     if option ==3:
