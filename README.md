@@ -42,7 +42,10 @@ We want to design a project to fulfill the need for event recommendation for int
 ### Terminal 
 **Instructions for running** 
 + open terminal at target file
-+ type 'python NYC_event.py'
++ type 
+```
+python NYC_event.py
+```
 
 **Option menu**
 + **Option 1: Data Initialization** 
@@ -57,7 +60,7 @@ We want to design a project to fulfill the need for event recommendation for int
 
 Download and initialize the dataset, this is the necessary step for option 2,3,4,5
 
-![GitHub][https://github.com/zhangyingchi/NYC_event/blob/master/images/option1.PNG]
+![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/option1.PNG)
 
 + **Option 2: Events heatmap(this will take a little bit long, like 20 mins )**
 
@@ -65,32 +68,23 @@ This option doesn't work on terminal method, the google map would not
 
 + **Option 3: Events wordcloud**
 
-![GitHub][https://github.com/zhangyingchi/NYC_event/blob/master/images/option3.PNG]
+![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/option3.PNG)
 
 + **Option 4: Search by Features**
 
 
 + **Option 5: Select a event**
 
+![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/map%20marker.png)
 
 + **Option 6: Find route to the events**
 
 ![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/pop_up_interface.PNG)
 
 
-
 ### Jupyter Notebook
 
 Google Maps Widget can not show on terminal, some functions in option 3,5,6 cannot be seen if you run NYC_event.py on terminal
-
-
-
-
-![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/wordcloud.png)
-
-
-
-![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/map%20marker.png)
 
 
 ## Run Instructions - GUI Events Filter 
@@ -100,7 +94,10 @@ Bokeh_filter.ipynb provide function to construct a local server to run this GUI
 
 This code should be executed on bash 
 
-run **bokeh serve bokeh_filter.ipynb** 
+run 
+```
+bokeh serve bokeh_filter.ipynb
+```
 
 follow the tips that display on the command line, open **http://localhost:5006/bokeh_filter** on broswer
 
