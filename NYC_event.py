@@ -18,6 +18,8 @@ import matplotlib.pyplot as plt
 import nltk
 from scipy.misc.pilutil import imread, imsave,imresize
 from wordcloud import WordCloud, STOPWORDS
+from ipywidgets.embed import embed_minimal_html
+import webbrowser
 
 
 # In[2]:
@@ -491,7 +493,7 @@ type "q" to end the program''')
             print ('Please initialize data first!')
             continue
         get_heatmap()
- 
+            
             
     # wordcloud
     if option ==3:
@@ -519,9 +521,9 @@ type "q" to end the program''')
         event=select()
         event=to_dict(event)
         fig = map_marker(event)
-        from ipywidgets.embed import embed_minimal_html
+        
         embed_minimal_html('export.html', views=[fig])
-        import webbrowser
+        
         webbrowser.open_new('export.html')
         
 

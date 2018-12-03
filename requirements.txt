@@ -14,3 +14,5 @@ matplotlib
 nltk
 scipy
 wordcloud
+ipywidgets
+webbrowser
