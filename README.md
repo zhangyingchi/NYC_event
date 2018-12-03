@@ -51,15 +51,15 @@ Download and initialize the dataset, this is the necessary step for option 2,3,4
 
 ![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/option1.PNG)
 
-+ **Option 2: Events heatmap(this will take a little bit long, like 20 mins )**
+### Option 2: Events heatmap(this will take a little bit long, like 20 mins ) ###
 
 This option doesn't work on terminal method, the google map would not 
 
-+ **Option 3: Events wordcloud**
+### Option 3: Events wordcloud ###
 
 ![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/option3.PNG)
 
-+ **Option 4: Search by Features**
+### Option 4: Search by Features ###
 
 ![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/option4.PNG)
 
@@ -73,12 +73,12 @@ The format of function input should be :
 + borough = string
 + weekday = integer between 1-7, (1=Monday,7=Sunday)
 
-+ **Option 5: Select a event**
+### Option 5: Select a event ###
 
 
 ![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/map%20marker.png)
 
-+ **Option 6: Find route to the events**
+### Option 6: Find route to the events ###
 
 ![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/pop_up_interface.PNG)
 
