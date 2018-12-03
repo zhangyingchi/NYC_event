@@ -37,6 +37,12 @@ python NYC_event.py
 ```
 
 ## Option menu
+Option 1: Data Initialization
+Option 2: Events heatmap(this will take a little bit long, like 20 mins )
+Option 3: Events wordcloud
+Option 4: Search by Features
+Option 5: Select a event
+Option 6: Find route to the events
 ### Option 1: Data Initialization ###
 
 > This data is provided by Office of Citywide Event Coordination and Management (CECM)
@@ -86,12 +92,6 @@ The format of function input should be :
 
 
 Due to the supportting issue of gmaps package, the directions layer cannot be exported temporarily. 
-
-
-### Jupyter Notebook
-
-Google Maps Widget can not show on terminal, some functions in option 3,5,6 cannot be seen if you run NYC_event.py on terminal
-
 
 ## Run Instructions - GUI Events Filter 
 We also provides a GUI filter for users to search the events
