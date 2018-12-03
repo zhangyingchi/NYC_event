@@ -3,20 +3,12 @@
 ## Group Information
 Group name: Group 31, Class Section: Section 2
 
-Group Member : 
-+ Chi Zhang: cz2527
-+ Haoran Tang: ht2491
-+ Shangyou Wu: sw3320
-+ Huimin Wang: hw2671
-
 ## Project Description
-
 
 ### Motivation:
 
 When we started our study at Columbia University, we have realized that international students want to fit in the culture and attend interesting events while there is no way recommending events on New York City based on users’ location, interests and availability.
 
- 
 ### Goal:
 
 We want to design a project to fulfill the need for event recommendation for international students and everyone who eagers to engage in the activities and events in NYC. Meanwhile, companies can benefit from the gathered event information.
@@ -34,12 +26,11 @@ We want to design a project to fulfill the need for event recommendation for int
 + wordcloud
 + tkinter
 
-
 ## Run Instructions - Python File
 
 **Note that option 6 can only run in Windows, since tkinter package does not fullly support Mac OS**
 
-### Terminal 
+### 1. Terminal 
 **Instructions for running** 
 + open terminal at target file
 + type 
@@ -75,6 +66,7 @@ This option doesn't work on terminal method, the google map would not
 
 + **Option 5: Select a event**
 
+
 ![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/map%20marker.png)
 
 + **Option 6: Find route to the events**
@@ -103,5 +95,7 @@ follow the tips that display on the command line, open **http://localhost:5006/b
 
 ![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/bokeh%20filter.png)
 
+
+*Due to the bokeh library issue, we temporarily do not support date filter on html*
 
 for more instructions, please see https://hub.mybinder.org/user/bokeh-bokeh-notebooks-qx6owzax/notebooks/tutorial/11%20-%20Running%20Bokeh%20Applictions.ipynb   
