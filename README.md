@@ -63,6 +63,7 @@ This option doesn't work on terminal method, the google map would not
 
 + **Option 4: Search by Features**
 
+![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/option4.PNG)
 
 + **Option 5: Select a event**
 
