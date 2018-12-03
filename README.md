@@ -65,6 +65,16 @@ This option doesn't work on terminal method, the google map would not
 
 ![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/option4.PNG)
 
+We provide a events filter accoridng to the **event name,  event type,  start time,  borough and weekdays**
+
+The format of function input should be :
+
++ event_name = string
++ event_type = string 
++ date = (yyyy,mm) or (yyyy,mm,dd)
++ borough = string
++ weekday = integer between 1-7, (1=Monday,7=Sunday)
+
 + **Option 5: Select a event**
 
 
