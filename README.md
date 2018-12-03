@@ -73,6 +73,11 @@ This option doesn't work on terminal method, the google map would not
 
 ![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/pop_up_interface.PNG)
 
+![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/path.PNG)
+
+
+Due to the supportting issue of gmaps package, the directions layer cannot be exported temporarily. 
+
 
 ### Jupyter Notebook
 
