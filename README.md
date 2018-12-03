@@ -50,6 +50,7 @@ Google Maps Widget can not show on terminal, some functions in option 3,5,6 cann
 
 
 
+
 ![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/wordcloud.png)
 
 
