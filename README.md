@@ -1,6 +1,7 @@
 <div align="center">
   <img src="https://github.com/zhangyingchi/NYC_event/blob/master/images/Logo.png">
 </div>
+
 -----------------
 
 # Group Information
@@ -28,6 +29,8 @@ We want to design a project to fulfill the need for event recommendation for int
 + folium
 + wordcloud
 + tkinter
++ ipywidgets
++ webbrowser
 
 # Run Instructions - Python File in terminal 
 
