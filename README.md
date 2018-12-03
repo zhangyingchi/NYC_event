@@ -26,20 +26,18 @@ We want to design a project to fulfill the need for event recommendation for int
 + wordcloud
 + tkinter
 
-## Run Instructions - Python File
+## Run Instructions - Python File in terminal 
 
 **Note that option 6 can only run in Windows, since tkinter package does not fullly support Mac OS**
 
-### 1. Terminal 
-**Instructions for running** 
 + open terminal at target file
 + type 
 ```
 python NYC_event.py
 ```
 
-**Option menu**
-+ **Option 1: Data Initialization** 
+## Option menu
+### Option 1: Data Initialization ###
 
 > This data is provided by Office of Citywide Event Coordination and Management (CECM)
 
