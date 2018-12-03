@@ -1,7 +1,6 @@
 <div align="center">
   <img src="https://github.com/zhangyingchi/NYC_event/blob/master/images/Logo.png"><br>
 </div>
-
 -----------------
 # Group Information
 Group name: Group 31, Class Section: Section 2
