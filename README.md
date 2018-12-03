@@ -75,6 +75,9 @@ This option doesn't work on terminal method, the google map would only work in j
 
 ![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/option4.PNG)
 
+
+### Option 5: Select a event ###
+
 We provide a events filter accoridng to the **event name,  event type,  start time,  borough and weekdays**
 
 The format of function input should be :
@@ -85,12 +88,11 @@ The format of function input should be :
 + borough = string
 + weekday = integer between 1-7, (1=Monday,7=Sunday)
 
-### Option 5: Select a event ###
-
-
 ![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/map%20marker.png)
 
 ### Option 6: Find route to the events ###
+
+option 6 does not rely on data in option 1, you only need to type the start and end point, and choose your tranportation mode
 
 ![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/pop_up_interface.PNG)
 
