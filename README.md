@@ -37,10 +37,45 @@ We want to design a project to fulfill the need for event recommendation for int
 
 ## Run Instructions - Python File
 
-Two method for running this python script.
+**Note that option 6 can only run in Windows, since tkinter package does not fullly support Mac OS**
 
 ### Terminal 
+**Instructions for running** 
++ open terminal at target file
++ type 'python NYC_event.py'
 
+**Option menu**
++ **Option 1: Data Initialization** 
+
+> This data is provided by Office of Citywide Event Coordination and Management (CECM)
+
+> NYC OPEN DATA provides the API to fetch the events data in the coming month.
+
+> The dataset is updated daily
+
+> Click here to see the reference: https://data.cityofnewyork.us/City-Government/NYC-Permitted-Event-Information/tvpp-9vvx
+
+Download and initialize the dataset, this is the necessary step for option 2,3,4,5
+
+![GitHub][https://github.com/zhangyingchi/NYC_event/blob/master/images/option1.PNG]
+
++ **Option 2: Events heatmap(this will take a little bit long, like 20 mins )**
+
+This option doesn't work on terminal method, the google map would not 
+
++ **Option 3: Events wordcloud**
+
+![GitHub][https://github.com/zhangyingchi/NYC_event/blob/master/images/option3.PNG]
+
++ **Option 4: Search by Features**
+
+
++ **Option 5: Select a event**
+
+
++ **Option 6: Find route to the events**
+
+![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/pop_up_interface.PNG)
 
 
 
