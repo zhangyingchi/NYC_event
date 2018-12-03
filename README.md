@@ -1,9 +1,12 @@
-# NYC_Event
+<div align="center">
+  <img src="https://github.com/zhangyingchi/NYC_event/blob/master/images/Logo.png">
+</div>
+-----------------
 
-## Group Information
+# Group Information
 Group name: Group 31, Class Section: Section 2
 
-## Project Description
+# Project Description
 
 ### Motivation:
 
@@ -14,7 +17,7 @@ When we started our study at Columbia University, we have realized that internat
 We want to design a project to fulfill the need for event recommendation for international students and everyone who eagers to engage in the activities and events in NYC. Meanwhile, companies can benefit from the gathered event information.
 
 
-## Python Package Requirements
+# Python Package Requirements
 + pandas
 + numpy
 + request
@@ -26,7 +29,7 @@ We want to design a project to fulfill the need for event recommendation for int
 + wordcloud
 + tkinter
 
-## Run Instructions - Python File in terminal 
+# Run Instructions - Python File in terminal 
 
 **Note that option 6 can only run in Windows, since tkinter package does not fullly support Mac OS**
 
@@ -59,7 +62,7 @@ Download and initialize the dataset, this is the necessary step for option 2,3,4
 
 ### Option 2: Events heatmap(this will take a little bit long, like 20 mins ) ###
 
-This option doesn't work on terminal method, the google map would not 
+This option doesn't work on terminal method, the google map would only work in jupyter notebook
 
 ### Option 3: Events wordcloud ###
 
@@ -93,7 +96,7 @@ The format of function input should be :
 
 Due to the supportting issue of gmaps package, the directions layer cannot be exported temporarily. 
 
-## Run Instructions - GUI Events Filter 
+# Run Instructions - GUI Events Filter 
 We also provides a GUI filter for users to search the events
 
 Bokeh_filter.ipynb provide function to construct a local server to run this GUI
