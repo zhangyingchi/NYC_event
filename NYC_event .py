@@ -14,6 +14,10 @@ import folium
 import wordcloud
 from tkinter import *
 from tkinter.simpledialog import askstring
+import matplotlib.pyplot as plt
+import nltk
+from scipy.misc.pilutil import imread, imsave,imresize
+from wordcloud import WordCloud, STOPWORDS
 
 
 # In[2]:
@@ -261,7 +265,6 @@ def map_marker(event):
 
 def find_path(start, end, method = 'BICYCLING'):
     "Method could be 'DRIVING','WALKING','BICYCLING','TRANSIT'"
-    import gmaps
     my_key = api_key
     gmaps.configure(api_key=my_key)
     
@@ -432,11 +435,6 @@ def get_heatmap():
 
 
 def text_cloud(df):
-
-    import matplotlib.pyplot as plt
-    import nltk
-    from scipy.misc.pilutil import imread, imsave,imresize
-    from wordcloud import WordCloud, STOPWORDS
     motive=df['event_name'].str.cat(sep = '-')
 
     words=nltk.tokenize.word_tokenize(motive)
@@ -513,9 +511,8 @@ type "q" to end the program''')
             print ('Please initialize data first!')
             continue
         df_search =search()
+        
         print(df_search)
-
-
     
     
     #select event
