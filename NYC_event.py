@@ -492,7 +492,11 @@ type "q" to end the program''')
         if df is 0:
             print ('Please initialize data first!')
             continue
-        get_heatmap()
+        fig = get_heatmap()
+        from ipywidgets.embed import embed_minimal_html
+        embed_minimal_html('export.html', views=[fig])
+        import webbrowser
+        webbrowser.open_new('export.html')
             
             
     # wordcloud
@@ -510,6 +514,8 @@ type "q" to end the program''')
             continue
         df_search =search()
         print(df_search)
+
+
     
     
     #select event
@@ -519,7 +525,11 @@ type "q" to end the program''')
             continue
         event=select()
         event=to_dict(event)
-        map_marker(event)
+        fig = map_marker(event)
+        from ipywidgets.embed import embed_minimal_html
+        embed_minimal_html('export.html', views=[fig])
+        import webbrowser
+        webbrowser.open_new('export.html')
         
 
     #find route
