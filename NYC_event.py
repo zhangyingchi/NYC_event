@@ -455,7 +455,7 @@ def text_cloud(df):
     return plt.show()
 
 
-# In[ ]:
+# In[3]:
 
 
 option=1
@@ -463,7 +463,7 @@ df=0
 while option!='q':
     option=input(ui+'''
 Type option number to continue
-type "q" to end the program''')
+type "q" to end the program  ''')
     
     if option=='q':
         break
@@ -491,13 +491,14 @@ type "q" to end the program''')
             print ('Please initialize data first!')
             continue
         get_heatmap()
- 
+            
             
     # wordcloud
     if option ==3:
         if df is 0:
             print ('Please initialize data first!')
             continue
+        print('working')
         text_cloud(df)
         
         
