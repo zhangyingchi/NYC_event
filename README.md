@@ -32,6 +32,7 @@ We want to design a project to fulfill the need for event recommendation for int
 + bokeh
 + folium
 + wordcloud
++ tkinter
 
 
 ## Run Instructions - Python File
