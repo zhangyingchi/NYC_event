@@ -37,6 +37,12 @@ python NYC_event.py
 ```
 
 ## Option menu
++ Option 1: Data Initialization
++ Option 2: Events heatmap(this will take a little bit long, like 20 mins )
++ Option 3: Events wordcloud
++ Option 4: Search by Features
++ Option 5: Select a event
++ Option 6: Find route to the events
 ### Option 1: Data Initialization ###
 
 > This data is provided by Office of Citywide Event Coordination and Management (CECM)
@@ -51,15 +57,15 @@ Download and initialize the dataset, this is the necessary step for option 2,3,4
 
 ![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/option1.PNG)
 
-+ **Option 2: Events heatmap(this will take a little bit long, like 20 mins )**
+### Option 2: Events heatmap(this will take a little bit long, like 20 mins ) ###
 
 This option doesn't work on terminal method, the google map would not 
 
-+ **Option 3: Events wordcloud**
+### Option 3: Events wordcloud ###
 
 ![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/option3.PNG)
 
-+ **Option 4: Search by Features**
+### Option 4: Search by Features ###
 
 ![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/option4.PNG)
 
@@ -73,12 +79,12 @@ The format of function input should be :
 + borough = string
 + weekday = integer between 1-7, (1=Monday,7=Sunday)
 
-+ **Option 5: Select a event**
+### Option 5: Select a event ###
 
 
 ![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/map%20marker.png)
 
-+ **Option 6: Find route to the events**
+### Option 6: Find route to the events ###
 
 ![GitHub](https://github.com/zhangyingchi/NYC_event/blob/master/images/pop_up_interface.PNG)
 
@@ -86,12 +92,6 @@ The format of function input should be :
 
 
 Due to the supportting issue of gmaps package, the directions layer cannot be exported temporarily. 
-
-
-### Jupyter Notebook
-
-Google Maps Widget can not show on terminal, some functions in option 3,5,6 cannot be seen if you run NYC_event.py on terminal
-
 
 ## Run Instructions - GUI Events Filter 
 We also provides a GUI filter for users to search the events
