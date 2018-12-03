@@ -10,7 +10,6 @@ bokeh
 folium
 wordcloud
 tkinter
-gmaps
 matplotlib
 nltk
 scipy
