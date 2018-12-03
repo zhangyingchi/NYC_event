@@ -1,0 +1,17 @@
+packages needed to be installed:
+
+pandas
+numpy
+request
+json
+sodapy
+gmaps
+bokeh
+folium
+wordcloud
+tkinter
+gmaps
+matplotlib
+nltk
+scipy
+wordcloud
